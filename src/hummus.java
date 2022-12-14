@@ -6,7 +6,7 @@ public class hummus {
         int min = Integer.MAX_VALUE, max = 0, price;
         price = s.nextInt();
         while (price > 0) {
-            System.out.println("enter the hummus prices of different restaurants: ");
+            System.out.println("Enter the hummus prices of different restaurants: ");
             price = s.nextInt();
             if (price > max) {
                 max = price;
